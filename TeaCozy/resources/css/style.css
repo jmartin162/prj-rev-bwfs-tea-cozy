@@ -1,0 +1,114 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.content {
+  width:1200px;
+}
+
+.header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  position:fixed;
+  background-color: black;
+  width:1200px;
+}
+
+.logo {
+  margin: auto 0;
+}
+
+.links{
+  display:flex;
+  margin: auto 0;
+}
+
+.link {
+  padding: 10px;
+  text-decoration: underline;
+  margin: auto 0;
+}
+
+.top {
+  align: center;
+  height: 700px;
+  padding-top: 69px;
+  display: flex;
+  background-image: url('/Users/jeremymartin/Desktop/projects/Dev/TeaCozy/resources/images/img-mission-background.jpg')
+}
+
+.mission {
+  margin: auto;
+  flex: 1;
+  background-color: black;
+}
+
+.month {
+  margin: auto;
+  align: center;
+  display: flex;
+  flex-direction:column;
+  width: 1000px;
+  justify-content: center;
+
+}
+
+.toprow {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomrow {
+  display: flex;
+  justify-content: center;
+}
+
+.Tea {
+  margin: 10px;
+}
+
+
+.loc3 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-image: url('/Users/jeremymartin/Desktop/projects/Dev/TeaCozy/resources/images/img-locations-background.jpg')
+}
+
+.loc21 {
+  margin-top: 50px;
+}
+
+.loc22 {
+  display:flex;
+  justify-content: center;
+  flex:1;
+  margin-bottom: 60px;
+}
+
+.loc1 {
+  background-color: black;
+  padding: 0px;
+  margin: 10px;
+  width: 300px;
+
+}
+
+
+.footer {
+
+  text-align: left
+}
+
+.footercenter {
+
+  text-align: center;
+  }
